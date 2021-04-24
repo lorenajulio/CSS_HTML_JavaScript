@@ -1,0 +1,273 @@
+body {
+    background: #f2f2f2;
+  }
+  
+  header {
+    background: #1f1b2e;
+    color: #fff;
+    justify-content: center;
+    align-content: center;
+    min-height: 70px;
+    margin: auto;
+    box-shadow: 0px 1px 2px black;
+  }
+  header h1 {
+    float: left;
+    margin-left: 5%;
+    text-shadow: 2px 3px 4px black;
+    font-size: calc(1em + 1vw);
+    margin-top: 19px;
+    letter-spacing: 2px;
+    text-shadow: 2px 2px 2px #e02932;
+  }
+  header img {
+    width: 7%;
+    min-height: 40px;
+  }
+  header nav {
+    margin-top: 18px;
+    width: 100%;
+    padding: 5px;
+  }
+  header nav p {
+    margin-right: 10px;
+    text-align: right;
+    letter-spacing: 2px;
+  }
+  
+  .main {
+    background: #eeeded;
+    box-shadow: 0px 1px 2px black;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    min-height: 86vh;
+    padding: 0;
+  }
+  .main article {
+    padding: 20px;
+  }
+  .main article .pag {
+    display: none;
+  }
+  .main article .contPreguntas {
+    display: none;
+    width: 80%;
+    margin: 90%;
+    background: #f3f3f3;
+    padding: 30px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    min-height: 200px;
+    margin: auto;
+  }
+  .main article .contPreguntas .indicador {
+    display: none;
+  }
+  .main article .controles {
+    margin: auto;
+    width: 80%;
+    max-width: 85%;
+    display: none;
+    min-height: 30vh;
+  }
+  .main article .controles .back {
+    float: left;
+    display: block;
+    padding: 1%;
+    width: 8%;
+    min-width: 50px;
+    margin: 30px 0px;
+    background: #1f1b2e;
+    color: white;
+    border: 0;
+    opacity: 1;
+    border-radius: 5px 5px;
+  }
+  .main article .controles .next {
+    float: right;
+    display: block;
+    padding: 1%;
+    min-width: 50px;
+    width: 8%;
+    margin: 30px 0px;
+    background: #1f1b2e;
+    color: white;
+    border: 0;
+    opacity: 1;
+    border-radius: 5px 5px;
+  }
+  .main article .controles .terminar {
+    float: right;
+    display: none;
+    padding: 10px;
+    width: 20%;
+    min-width: 70px;
+    margin: 30px 0px;
+    background: #1f1b2e;
+    color: white;
+    border: 0;
+    opacity: 1;
+    border-radius: 5px 5px;
+  }
+  .main article .controles button:hover {
+    opacity: 0.8;
+  }
+  .main article .welcome {
+    display: none;
+    text-align: center;
+    width: 80%;
+    margin: 90%;
+    background: #f3f3f3;
+    padding: 30px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    min-height: 400px;
+    margin: auto;
+    margin-top: 100px;
+  }
+  .main article .welcome button {
+    display: block;
+    padding: 10px;
+    width: 40%;
+    margin: 30px 0px;
+    font-size: 20px;
+    background: #1f1b2e;
+    color: white;
+    border: 0;
+    opacity: 1;
+    border-radius: 5px 5px;
+    margin: auto;
+    margin-top: 25px;
+  }
+  .main article .welcome button:hover {
+    opacity: 0.8;
+  }
+  .main article .login {
+    margin: auto;
+    margin-top: 120px;
+    width: 50%;
+    max-width: 500px;
+    background: #f3f3f3;
+    padding: 30px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+  }
+  .main article .login h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: rgba(0, 0, 0, 0.5);
+  }
+  .main article .login input[type=text] {
+    display: block;
+    padding: 10px;
+    width: 100%;
+    margin: 30px 0px;
+    font-size: 20px;
+  }
+  .main article .login button {
+    display: block;
+    padding: 10px;
+    width: 100%;
+    margin: 30px 0px;
+    font-size: 20px;
+    background: #1f1b2e;
+    color: white;
+    border: 0;
+    opacity: 1;
+    border-radius: 5px 5px;
+  }
+  .main article .login button:hover {
+    opacity: 0.8;
+  }
+  .main article .pRealizadas {
+    display: block;
+    margin: auto;
+    width: 80%;
+    text-align: center;
+    margin-bottom: 50px;
+  }
+  .main article .items {
+    min-height: 45px;
+    margin-top: 120px;
+    justify-content: center;
+    align-items: center;
+    display: none;
+    width: 80%;
+    margin: auto;
+    max-width: 85%;
+  }
+  .main article .items .item {
+    width: 8%;
+    min-width: 25px;
+    height: 40px;
+    margin: 2px;
+    text-decoration: none;
+    border: 1px solid gray;
+  }
+  .main article .items .item:hover {
+    background: rgba(0, 0, 0, 0.2);
+    transition: all 0.4s linear;
+  }
+  .main .aside {
+    display: none;
+    color: #fff;
+    padding-top: 20px;
+    min-height: 90vh;
+  }
+  .main .aside article {
+    background: #195f2f;
+    margin-bottom: 30px;
+    min-height: 23vh;
+  }
+  .main .aside article .tittle {
+    background-image: linear-gradient(to right, #17c970, #ffffff);
+    width: 100%;
+    min-height: 30px;
+    padding-left: 5px;
+    padding-top: 0.5px;
+  }
+  .main .aside article .tittle h4 {
+    text-shadow: 2px 3px 4px black;
+  }
+  
+  footer {
+    background: #ebe9e9;
+    color: #0000;
+    text-align: center;
+    box-shadow: 0px 1px 2px black;
+  }
+  footer h5 {
+    color: #000;
+  }
+  
+  .container {
+    margin: auto;
+    width: 95%;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .main article .login {
+      width: 90%;
+      margin-top: 20px;
+    }
+    .main article .controles {
+      width: 90%;
+    }
+    .main article .items {
+      width: 90%;
+    }
+  }
+  @media screen and (max-width: 360px) {
+    .main article .login {
+      width: 100%;
+      margin-top: 20px;
+    }
+    .main article .controles {
+      width: 100%;
+    }
+    .main article .items {
+      width: 100%;
+    }
+  }
+  
+  /*# sourceMappingURL=main.css.map */
+  

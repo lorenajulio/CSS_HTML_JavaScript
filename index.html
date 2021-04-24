@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0,  minimum-scale=1.0">
+    <title>Test Futbolero</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/main.css">
+
+
+</head>
+
+<body>
+    <header>
+        <div class="col-xs-7 ha1">
+            <h1>TEST FUTBOLERO</h1>
+        </div>
+        <nav class="col-xs-5 ha1">
+            <p id="user"></p>
+        </nav>
+    </header>
+    <div class="container">
+
+        <section class="main row ">
+            <article class="col-md-12">
+                <div class="login" id="login">
+                    <h2>Formulario de ingreso</h2>
+                    <input type="text" name="name" id="name" placeholder="&#128100;  Enter your name">
+                    <input type="text" name="last_name" id="last_name" placeholder="&#128100;  Enter your last name ">
+                    <button id="registrar">
+                        Entrar
+                    </button>
+                </div>
+                <div class="welcome" id="welcome">
+                    <h1>!Bienvenido¡</h1>
+                    <p id="user2"></p>
+                    <h3>¿Que tanto sabes de futbol?.</h3>
+                    <button id="test">
+                        iniciar test
+                    </button>
+                </div>
+                <div class="contPreguntas" id="contPreguntas">
+                    <Strong id="indicador_cont" class="indicador"></Strong>
+                    <p id="actual"></p>
+                    <div id="pregunta0" class="pag">
+                        <label for="">1.¿A quien se le titulo como mejor jugador del mundo en el año 2015?</label><br><br>
+                        <label for="">A:&nbsp</label><input type="radio" name="rst" value="Leonel messi"><label
+                            id="rst">&nbspLeonel messi</label><br>
+                        <label for="">B:&nbsp</label><input type="radio" name="rst"
+                            value="Cristiano Ronaldo"><label>&nbspCristiano Ronaldo</label><br>
+                        <label for="">C:&nbsp</label><input type="radio" name="rst"
+                            value="Cristiano Ronaldo"><label>&nbspCristiano Ronaldo</label><br><br>
+                    </div>
+                    <div id="pregunta1" class="pag">
+                        <label for="">2.¿Equipo campeon de la compa del mundo en el año 2006?</label><br><br>
+                        <label for="">A:&nbsp</label><input type="radio" name="rst1"
+                            value="Alemania"><label>&nbspAlemania</label><br>
+                        <label for="">C:&nbsp</label><input type="radio" name="rst1"
+                            value="Inglaterra"><label>&nbspInglaterra</label><br>
+                        <label for="">B:&nbsp</label><input type="radio" name="rst1" value="Italia"><label
+                            id="rst1">&nbspItalia</label><br><br>
+                    </div>
+                    <div id="pregunta2" class="pag">
+                        <label for="">3.¿Mejor tecnico 2019?</label><br><br>
+                        <label for="">A:&nbsp</label><input type="radio" name="rst2"
+                            value="Pep Guardiola"><label>&nbspPep Guardiola</label><br>
+                        <label for="">B:&nbsp</label><input type="radio" name="rst2"
+                            value="Zinedine Zidane"><label>&nbspZinedine Zidane</label><br>
+                        <label for="">C:&nbsp</label><input type="radio" name="rst2" value="Jurgen Klopp"><label
+                            id="rst2">&nbspJurgen Klopp</label><br><br>
+                    </div>
+                    <div id="pregunta3" class="pag">
+                        <label for="">4.¿Equipo campeon de la UEFA CHAMPIONS LEAGUE en el año 2016?</label><br><br>
+                        <label for="">A:&nbsp</label><input type="radio" name="rst3" value="Fc Barcelona"><label>&nbspFc
+                            Barcelona</label><br>
+                        <label for="">B:&nbsp</label><input type="radio" name="rst3"
+                            value="Bayern Munich"><label>&nbspBayern Munich</label><br>
+                        <label for="">C:&nbsp</label><input type="radio" name="rst3" value="Real madrid"><label
+                            id="rst3">&nbspReal madrid</label><br><br>
+                    </div>
+                    <div id="pregunta4" class="pag">
+                        <label for="">5.¿jugador con el fichaje mas caro?</label><br><br>
+                        <label for="">A:&nbsp</label><input type="radio" name="rst4" value="Neymar Jr"><label
+                            id="rst4">&nbspNeymar Jr</label><br>
+                        <label for="">B:&nbsp</label><input type="radio" name="rst4"
+                            value="Kylian Mbappé"><label>&nbspKylian Mbappé</label><br>
+                        <label for="">C:&nbsp</label><input type="radio" name="rst4"
+                            value="Philippe Coutinho"><label>&nbspPhilippe Coutinho</label><br><br>
+                    </div>
+                    <div id="pregunta5" class="pag">
+                        <label for="">6.¿Si sumamos los botines de oro obtenidos por Leonel messi y Cr7 cuantas
+                            serian?</label><br><br>
+                        <label for="">A:&nbsp</label><input type="radio" name="rst5" value="9"><label>&nbsp9</label><br>
+                        <label for="">B:&nbsp</label><input type="radio" name="rst5" value="10"><label
+                            id="rst5">&nbsp10</label><br>
+                        <label for="">C:&nbsp</label><input type="radio" name="rst5" value="8"><label>&nbsp8</label><br><br>
+                    </div>
+                    <div id="pregunta6" class="pag">
+                        <label for="">7.¿Quién es conocido como el rey del fútbol?</label><br><br>
+                        <label for="">A:&nbsp</label><input type="radio" name="rst6"
+                            value="Ronaldo Nazario"><label>&nbspRonaldo Nazario</label><br>
+                        <label for="">B:&nbsp</label><input type="radio" name="rst6" value="Pelé"><label
+                            id="rst6">&nbspPelé</label><br>
+                        <label for="">C:&nbsp</label><input type="radio" name="rst6"
+                            value="Ronaldiño"><label>&nbspRonaldiño</label><br><br>
+                    </div>
+                    <div id="pregunta7" class="pag">
+                        <label for="">8.¿Dónde se jugó la primera copa del mundo?</label><br><br>
+                        <label for="">A:&nbsp</label><input type="radio" name="rst7" value="Uruguay"><label
+                            id="rst7">&nbspUruguay</label><br>
+                        <label for="">B:&nbsp</label><input type="radio" name="rst7"
+                            value="Alemania"><label>&nbspAlemania</label><br>
+                        <label for="">C:&nbsp</label><input type="radio" name="rst7"
+                            value="Inlgaterra"><label>&nbspInlgaterra</label><br><br>
+                    </div>
+                    <div id="pregunta8" class="pag">
+                        <label for="">9.¿Quién es el máximo goleador de la historia de los mundiales?</label><br><br>
+                        <label for="">A:&nbsp</label><input type="radio" name="rst8"
+                            value="Johan Cruyff"><label>&nbspJohan Cruyff</label><br>
+                        <label for="">B:&nbsp</label><input type="radio" name="rst8"
+                            value="Pele"><label>&nbspPele</label><br>
+                        <label for="">C:&nbsp</label><input type="radio" name="rst8" value="Miroslav Klose"><label
+                            id="rst8">&nbspMiroslav Klose</label><br><br>
+                    </div>
+                </div>
+                <div class="controles" id="controles">
+                    <button class="back" id="back">Back</button>
+                    <button class="next" id="next">Next</button>
+                    <button class="terminar" id="Terminartest">Enviar Test</button>
+                    <h1 id="estado"></h1>
+                    <div id="nota"></div><br> 
+                </div>
+                <p id="pRealizadas" class="pRealizadas"></p>
+                    <div class="items" id="items">
+                        <button class="item" id="item" onclick="pag(0)">1</button>
+                        <button class="item" id="item1" onclick="pag(1)">2</button>
+                        <button class="item" id="item2" onclick="pag(2)">3</button>
+                        <button class="item" id="item3" onclick="pag(3)">4</button>
+                        <button class="item" id="item4" onclick="pag(4)">5</button>
+                        <button class="item" id="item5" onclick="pag(5)">6</button>
+                        <button class="item" id="item6" onclick="pag(6)">7</button>
+                        <button class="item" id="item7" onclick="pag(7)">8</button>
+                        <button class="item" id="item8" onclick="pag(8)">9</button>
+                    </div>
+                <section class="col-xs-12  aside" id="aside">
+                    <div class="container row">
+                        <article>
+                            <div class="tittle">
+                                <h4>Articulos</h4>
+                            </div>
+                        </article>
+                    </div>
+                </section>
+            </article> 
+        </section>
+        <footer class="row">
+            <h5>Todos los Derechos Reservados</h5>
+        </footer>
+    </div>
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/Funciones.js"></script>
+</body>
+
+</html>
